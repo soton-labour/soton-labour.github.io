@@ -1,6 +1,10 @@
 /* Print styling */
 
 @media print {
+* {
+  -webkit-transition: none !important;
+    transition: none !important;
+}
 
 [class*="col-sm-"] {
 	float: left;
